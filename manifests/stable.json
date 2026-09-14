@@ -7,7 +7,7 @@
     "versionCode": 24,
     "publishedAt": "2026-09-10T03:51:14.379Z",
     "releaseNotes": "治療師工作台的問卷組合結果改為緊湊橫排：單一分數問卷左側顯示名稱及標籤，右側顯示分數，減少不必要留白；保留次序、完成時間、分數不加總提示及複合分數的多行顯示。Today Results 同步更新。未改問卷內容、計分、病人結果私隱或本機資料。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.23-code24/opd-questionnaire-v1.23-code24.apk",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.23-code24/questionnaire-1.23.apk",
     "byteSize": 5996153,
     "sha256": "0bcdb35d3c89e60b42ac77cdc8f3f926ca38d7181e46a6c1e91359642ec16043",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
