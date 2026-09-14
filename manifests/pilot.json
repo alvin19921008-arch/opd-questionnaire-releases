@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "release": {
+    "releaseId": "5c28c1be-7f3c-41ee-84d0-34a1b00d2da0",
+    "packageName": "hk.opd.questionnaire",
+    "versionName": "1.24-RC2",
+    "versionCode": 26,
+    "publishedAt": "2026-09-13T17:22:28.715Z",
+    "releaseNotes": "1.24-RC2 測試版本：修正 RMDQ 語音模式換題後上一題「符合／不符合」按鈕仍似被選中的視覺殘留；語音準備／合成中的 spinner、狀態文字及進度條改為病人及治療師可見，並放在「正在讀／提示」主狀態下方。耗時、cache、route 及 fallback 診斷仍只限 Developer Mode。未改問卷字句、答案、計分、完成規則、草稿或病人資料。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC2-code26/opd-questionnaire-v1.24-RC2-code26.apk",
+    "byteSize": 6125998,
+    "sha256": "dff3be45efd93079d30b29f299831c3dbfd8cea58976f8681dfa6ae24cab038a",
+    "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
+    "minimumAndroidApi": 24
+  }
+}
