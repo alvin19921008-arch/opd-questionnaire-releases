@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "c2c0463f-e619-47f6-82b6-fcfdc2aca20d",
+    "releaseId": "0ff2520b-96e4-4522-9f44-0f26606fd771",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.24-RC3",
-    "versionCode": 27,
-    "publishedAt": "2026-09-14T12:48:10.613Z",
-    "releaseNotes": "1.24-RC3 測試版本：更新檢查與安裝頁改用獨立 public GitHub release distribution，避免日後依賴 Supabase project 保持喚醒。只接受指定 GitHub Release URL，並只容許 GitHub 官方 asset CDN redirect；APK 的大小、SHA-256、package、version 及簽署憑證仍會在安裝前核對。此版本只供受邀同事測試，Stable 正式版本維持不變；未改問卷字句、答案、計分、草稿、完成規則或病人資料。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC3-code27/questionnaire-1.24-RC3.apk",
-    "byteSize": 6126194,
-    "sha256": "c09710dc2afd225b1e8b00a6e318b4a79315a19e1a6768d903f9de32d1038aac",
+    "versionName": "1.24-RC4",
+    "versionCode": 28,
+    "publishedAt": "2026-09-14T22:29:50.937Z",
+    "releaseNotes": "1.24-RC4 測試版本：Voice mode 會喺首頁背景預熱六份支援問卷嘅長指引，獨立問卷同 batch 共用持久 prepared-audio cache，並修正重新開啟 App、退出後再揀問卷或轉第二份問卷時重複即場合成。Active batch 可隨時喺語音／普通模式之間切換，同時保留問卷次序、進度同答案。Android 新增離線廣東話語音資料偵測：未安裝 Google 廣東話（香港）語音 I 時會阻止進入 Voice mode，顯示安裝指引並可直達 Google 新增語言頁；普通模式仍然可用。另修正 prepared playback 完結時嘅 native release 競態。此版本只供受邀同事 Pilot 測試，Stable 正式版本維持不變；未改問卷字句、答案、計分、草稿、完成規則或病人資料。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC4-code28/questionnaire-1.24-RC4.apk",
+    "byteSize": 6136850,
+    "sha256": "a23c65b0bee922a97524bbb47979d8def2b0737acf20be5e5007aaa1ba2c319e",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
