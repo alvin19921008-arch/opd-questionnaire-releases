@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "0ff2520b-96e4-4522-9f44-0f26606fd771",
+    "releaseId": "57b0e64d-30ce-4a82-b3f3-7469059cebe2",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.24-RC4",
-    "versionCode": 28,
-    "publishedAt": "2026-09-14T22:29:50.937Z",
-    "releaseNotes": "1.24-RC4 測試版本：Voice mode 會喺首頁背景預熱六份支援問卷嘅長指引，獨立問卷同 batch 共用持久 prepared-audio cache，並修正重新開啟 App、退出後再揀問卷或轉第二份問卷時重複即場合成。Active batch 可隨時喺語音／普通模式之間切換，同時保留問卷次序、進度同答案。Android 新增離線廣東話語音資料偵測：未安裝 Google 廣東話（香港）語音 I 時會阻止進入 Voice mode，顯示安裝指引並可直達 Google 新增語言頁；普通模式仍然可用。另修正 prepared playback 完結時嘅 native release 競態。此版本只供受邀同事 Pilot 測試，Stable 正式版本維持不變；未改問卷字句、答案、計分、草稿、完成規則或病人資料。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC4-code28/questionnaire-1.24-RC4.apk",
-    "byteSize": 6136850,
-    "sha256": "a23c65b0bee922a97524bbb47979d8def2b0737acf20be5e5007aaa1ba2c319e",
+    "versionName": "1.24-RC5",
+    "versionCode": 29,
+    "publishedAt": "2026-09-15T14:19:29.630Z",
+    "releaseNotes": "1.24-RC5 測試版本：Voice batch 喺目前問卷最後八題預熱下一份時，改為只生成短組合提示同第 1 題及答案，長問卷指引直接重用首頁已建立嘅跨 session cache。Android 9 實測 RMDQ 轉 QuickDASH 三段均以 prepared audio 0–1 ms 起播；每個 QuickDASH 下一份 opening 額外 cache 減少約 1.335 MiB（62.16%），並少生成約 29.17 秒 PCM 音訊內容。保留目前問卷兩題 look-ahead、前台操作優先、中斷重試、64 MiB LRU 同 live fallback；第一份 batch 短提示仍即時播放。此版本只供受邀同事 Pilot 測試，Stable 維持 v1.23；未改問卷字句、答案、計分、草稿、完成規則或病人資料。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC5-code29/questionnaire-1.24-RC5.apk",
+    "byteSize": 6136554,
+    "sha256": "f5d28a0781afe9fba17fb3f7d8e965042c6eac3e080774be5a35a906d1da214f",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
