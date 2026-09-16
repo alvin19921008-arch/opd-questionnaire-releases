@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "57b0e64d-30ce-4a82-b3f3-7469059cebe2",
+    "releaseId": "87ba3aa5-382c-4736-aa80-fbda624e8ea7",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.24-RC5",
-    "versionCode": 29,
-    "publishedAt": "2026-09-15T14:19:29.630Z",
-    "releaseNotes": "1.24-RC5 測試版本：Voice batch 喺目前問卷最後八題預熱下一份時，改為只生成短組合提示同第 1 題及答案，長問卷指引直接重用首頁已建立嘅跨 session cache。Android 9 實測 RMDQ 轉 QuickDASH 三段均以 prepared audio 0–1 ms 起播；每個 QuickDASH 下一份 opening 額外 cache 減少約 1.335 MiB（62.16%），並少生成約 29.17 秒 PCM 音訊內容。保留目前問卷兩題 look-ahead、前台操作優先、中斷重試、64 MiB LRU 同 live fallback；第一份 batch 短提示仍即時播放。此版本只供受邀同事 Pilot 測試，Stable 維持 v1.23；未改問卷字句、答案、計分、草稿、完成規則或病人資料。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC5-code29/questionnaire-1.24-RC5.apk",
-    "byteSize": 6136554,
-    "sha256": "f5d28a0781afe9fba17fb3f7d8e965042c6eac3e080774be5a35a906d1da214f",
+    "versionName": "1.24-RC6",
+    "versionCode": 30,
+    "publishedAt": "2026-09-16T04:41:19.437Z",
+    "releaseNotes": "1.24-RC6 測試版本：改善完全不識字病人的 Voice 答案操作。LEFS、KOOS、NPNQ、STarT Back 及 QuickDASH 每個答案加入與朗讀次序一致的 1–5 大數字（NPNQ 不駕駛為第 6 項），不顯示臨床分數。RMDQ Voice 指引清楚說明每句都必須選擇「符合」或「不符合」才會前往下一句，並更新指引 cache 避免重播舊句。普通模式、驗證問卷原文、答案值、計分、完成規則、草稿及私隱不變。此版本只供受邀同事 Pilot 測試；Stable 維持 v1.23。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC6-code30/questionnaire-1.24-RC6.apk",
+    "byteSize": 6136918,
+    "sha256": "2ea5a2843ff4652b61f0603db99b8459846c4db0b17c5df5440ea764743f83be",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
