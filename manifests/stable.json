@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "a6f4f3c1-8877-428f-bfaf-0e877de988ff",
+    "releaseId": "79930173-6216-4070-b5d1-dbda3b746a72",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.23",
-    "versionCode": 24,
-    "publishedAt": "2026-09-10T03:51:14.379Z",
-    "releaseNotes": "治療師工作台的問卷組合結果改為緊湊橫排：單一分數問卷左側顯示名稱及標籤，右側顯示分數，減少不必要留白；保留次序、完成時間、分數不加總提示及複合分數的多行顯示。Today Results 同步更新。未改問卷內容、計分、病人結果私隱或本機資料。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.23-code24/questionnaire-1.23.apk",
-    "byteSize": 5996153,
-    "sha256": "0bcdb35d3c89e60b42ac77cdc8f3f926ca38d7181e46a6c1e91359642ec16043",
+    "versionName": "1.24-RC7",
+    "versionCode": 31,
+    "publishedAt": "2026-09-20T16:57:10.041Z",
+    "releaseNotes": "1.24-RC7 正式版本：主 App 加入廣東話語音操作，支援 RMDQ、NPQ、STarT Back、QuickDASH、LEFS 及 KOOS，備有離線語音檢查、語音預載、播放控制及大數字答案。RMDQ 語音指引清楚要求每句選擇「符合」或「不符合」。頸痛問卷簡稱由 NPNQ 統一為 NPQ，舊草稿、組合答案及結果會自動遷移並保留。問卷題目、答案、計分、完成規則、草稿及私隱不變。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.24-RC7-code31/questionnaire-1.24-RC7.apk",
+    "byteSize": 6137315,
+    "sha256": "dfdc5a6b7bcf0c27f27e83ca2057671b64299a77d64a51f893d07c168e57c204",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
