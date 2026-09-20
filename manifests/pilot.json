@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "87ba3aa5-382c-4736-aa80-fbda624e8ea7",
+    "releaseId": "f7917908-ea53-4ab2-935a-a43cf225c71d",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.24-RC6",
-    "versionCode": 30,
-    "publishedAt": "2026-09-16T04:41:19.437Z",
-    "releaseNotes": "1.24-RC6 測試版本：改善完全不識字病人的 Voice 答案操作。LEFS、KOOS、NPNQ、STarT Back 及 QuickDASH 每個答案加入與朗讀次序一致的 1–5 大數字（NPNQ 不駕駛為第 6 項），不顯示臨床分數。RMDQ Voice 指引清楚說明每句都必須選擇「符合」或「不符合」才會前往下一句，並更新指引 cache 避免重播舊句。普通模式、驗證問卷原文、答案值、計分、完成規則、草稿及私隱不變。此版本只供受邀同事 Pilot 測試；Stable 維持 v1.23。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC6-code30/questionnaire-1.24-RC6.apk",
-    "byteSize": 6136918,
-    "sha256": "2ea5a2843ff4652b61f0603db99b8459846c4db0b17c5df5440ea764743f83be",
+    "versionName": "1.24-RC7",
+    "versionCode": 31,
+    "publishedAt": "2026-09-20T00:53:23.251Z",
+    "releaseNotes": "1.24-RC7 測試版本：頸痛問卷簡稱由 NPNQ 統一改為 NPQ，包括首頁、問卷頁、結果頁、今日結果及 Voice batch 朗讀。正式內部 ID、檔名、registry 及計分器亦統一為 npq；舊平板的 npnq 草稿、組合答案及結果會經 schema version 5 自動遷移為 npq，保留原有資料。題目、答案、計分、Q9 不駕駛及完成規則不變。此版本只供 Pilot 測試；Stable 維持 v1.23。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC7-code31/questionnaire-1.24-RC7.apk",
+    "byteSize": 6137315,
+    "sha256": "dfdc5a6b7bcf0c27f27e83ca2057671b64299a77d64a51f893d07c168e57c204",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
