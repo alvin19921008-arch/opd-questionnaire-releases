@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "79930173-6216-4070-b5d1-dbda3b746a72",
+    "releaseId": "e70fab46-a9d2-4dbe-8cfe-6e81d78a7211",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.24-RC7",
-    "versionCode": 31,
-    "publishedAt": "2026-09-20T16:57:10.041Z",
-    "releaseNotes": "1.24-RC7 正式版本：主 App 加入廣東話語音操作，支援 RMDQ、NPQ、STarT Back、QuickDASH、LEFS 及 KOOS，備有離線語音檢查、語音預載、播放控制及大數字答案。RMDQ 語音指引清楚要求每句選擇「符合」或「不符合」。頸痛問卷簡稱由 NPNQ 統一為 NPQ，舊草稿、組合答案及結果會自動遷移並保留。問卷題目、答案、計分、完成規則、草稿及私隱不變。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.24-RC7-code31/questionnaire-1.24-RC7.apk",
-    "byteSize": 6137315,
-    "sha256": "dfdc5a6b7bcf0c27f27e83ca2057671b64299a77d64a51f893d07c168e57c204",
+    "versionName": "1.24-RC8",
+    "versionCode": 32,
+    "publishedAt": "2026-09-22T13:28:29.055Z",
+    "releaseNotes": "1.24-RC8 正式版本：修復 RMDQ 首次載入後卡拉 OK 字幕快過語音的同步問題，字幕時間改以實際音訊播放時鐘為準；同時加強語音預載完成核對，只有實際音軌及時間資料齊全才顯示完成，缺失或過期快取會自動重新生成。問卷內容、答案、計分及私隱規則不變。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.24-RC8-code32/questionnaire-1.24-RC8.apk",
+    "byteSize": 6138995,
+    "sha256": "d3501bb39f5bce58b0ca4b03c52a7f203c349bf1de3be96884186005ce6b4976",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
