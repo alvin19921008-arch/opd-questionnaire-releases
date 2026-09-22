@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "f7917908-ea53-4ab2-935a-a43cf225c71d",
+    "releaseId": "a5d1333e-437f-48f9-8ab9-a2c225f443e6",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.24-RC7",
-    "versionCode": 31,
-    "publishedAt": "2026-09-20T00:53:23.251Z",
-    "releaseNotes": "1.24-RC7 測試版本：頸痛問卷簡稱由 NPNQ 統一改為 NPQ，包括首頁、問卷頁、結果頁、今日結果及 Voice batch 朗讀。正式內部 ID、檔名、registry 及計分器亦統一為 npq；舊平板的 npnq 草稿、組合答案及結果會經 schema version 5 自動遷移為 npq，保留原有資料。題目、答案、計分、Q9 不駕駛及完成規則不變。此版本只供 Pilot 測試；Stable 維持 v1.23。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC7-code31/questionnaire-1.24-RC7.apk",
-    "byteSize": 6137315,
-    "sha256": "dfdc5a6b7bcf0c27f27e83ca2057671b64299a77d64a51f893d07c168e57c204",
+    "versionName": "1.24-RC8",
+    "versionCode": 32,
+    "publishedAt": "2026-09-22T13:17:42.921Z",
+    "releaseNotes": "1.24-RC8 測試版本：修正 RMDQ 第一次載入時卡拉 OK 高亮快過語音，以及顯示已完成預載但音軌實際未可播放的問題；加入預載實檔核對、逾時復原及 Android 9 語音範圍同步。問卷題目、答案、計分、草稿及私隱規則不變。此版本先發佈到 Pilot 作實機驗收，Stable 暫時維持 1.24-RC7。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC8-code32/questionnaire-1.24-RC8.apk",
+    "byteSize": 6138995,
+    "sha256": "d3501bb39f5bce58b0ca4b03c52a7f203c349bf1de3be96884186005ce6b4976",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
