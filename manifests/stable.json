@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "e70fab46-a9d2-4dbe-8cfe-6e81d78a7211",
+    "releaseId": "0b0d9cc6-f729-402a-822a-ccf4787150f2",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.24-RC8",
-    "versionCode": 32,
-    "publishedAt": "2026-09-22T13:28:29.055Z",
-    "releaseNotes": "1.24-RC8 正式版本：修復 RMDQ 首次載入後卡拉 OK 字幕快過語音的同步問題，字幕時間改以實際音訊播放時鐘為準；同時加強語音預載完成核對，只有實際音軌及時間資料齊全才顯示完成，缺失或過期快取會自動重新生成。問卷內容、答案、計分及私隱規則不變。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.24-RC8-code32/questionnaire-1.24-RC8.apk",
-    "byteSize": 6138995,
-    "sha256": "d3501bb39f5bce58b0ca4b03c52a7f203c349bf1de3be96884186005ce6b4976",
+    "versionName": "1.24-RC9",
+    "versionCode": 33,
+    "publishedAt": "2026-09-23T09:30:19.109Z",
+    "releaseNotes": "1.24-RC9 正式版本：修正已升為 Stable 的 RC 版本仍在「目前版本」旁顯示「測試版本」標籤。當已安裝版本與正式 Stable 版本的名稱及編號一致時不再顯示該標籤；真正未升 Stable 的 RC／Pilot 版本仍保留。測試版本更新區、問卷內容、答案、計分、草稿、結果及私隱規則不變。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.24-RC9-code33/questionnaire-1.24-RC9.apk",
+    "byteSize": 6139089,
+    "sha256": "71baeb72e08331466c6b10f8994a32f7e4b287b7faeab49a58096090413efc8b",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
