@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "a5d1333e-437f-48f9-8ab9-a2c225f443e6",
+    "releaseId": "ea54cefa-70a2-42ba-8ace-ce8176295232",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.24-RC8",
-    "versionCode": 32,
-    "publishedAt": "2026-09-22T13:17:42.921Z",
-    "releaseNotes": "1.24-RC8 測試版本：修正 RMDQ 第一次載入時卡拉 OK 高亮快過語音，以及顯示已完成預載但音軌實際未可播放的問題；加入預載實檔核對、逾時復原及 Android 9 語音範圍同步。問卷題目、答案、計分、草稿及私隱規則不變。此版本先發佈到 Pilot 作實機驗收，Stable 暫時維持 1.24-RC7。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC8-code32/questionnaire-1.24-RC8.apk",
-    "byteSize": 6138995,
-    "sha256": "d3501bb39f5bce58b0ca4b03c52a7f203c349bf1de3be96884186005ce6b4976",
+    "versionName": "1.24-RC9",
+    "versionCode": 33,
+    "publishedAt": "2026-09-23T09:26:01.084Z",
+    "releaseNotes": "1.24-RC9 測試版本：修正已升為 Stable 的 RC 版本仍在「目前版本」旁顯示「測試版本」標籤。當已安裝版本與正式 Stable 版本的名稱及編號一致時不再顯示該標籤；真正未升 Stable 的 RC／Pilot 版本仍保留。測試版本更新區、問卷內容、答案、計分、草稿、結果及私隱規則不變。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/pilot-v1.24-RC9-code33/questionnaire-1.24-RC9.apk",
+    "byteSize": 6139089,
+    "sha256": "71baeb72e08331466c6b10f8994a32f7e4b287b7faeab49a58096090413efc8b",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
