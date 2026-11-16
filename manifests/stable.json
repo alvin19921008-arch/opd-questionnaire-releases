@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "release": {
-    "releaseId": "0b0d9cc6-f729-402a-822a-ccf4787150f2",
+    "releaseId": "2b1f004b-0f8f-4c50-85fe-d593809c694a",
     "packageName": "hk.opd.questionnaire",
-    "versionName": "1.24-RC9",
-    "versionCode": 33,
-    "publishedAt": "2026-09-23T09:30:19.109Z",
-    "releaseNotes": "1.24-RC9 正式版本：修正已升為 Stable 的 RC 版本仍在「目前版本」旁顯示「測試版本」標籤。當已安裝版本與正式 Stable 版本的名稱及編號一致時不再顯示該標籤；真正未升 Stable 的 RC／Pilot 版本仍保留。測試版本更新區、問卷內容、答案、計分、草稿、結果及私隱規則不變。",
-    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.24-RC9-code33/questionnaire-1.24-RC9.apk",
-    "byteSize": 6139089,
-    "sha256": "71baeb72e08331466c6b10f8994a32f7e4b287b7faeab49a58096090413efc8b",
+    "versionName": "1.24",
+    "versionCode": 35,
+    "publishedAt": "2026-11-16T04:02:14.135Z",
+    "releaseNotes": "問卷選項再按一下可取消。修正手機和平板轉屏後「完成問卷」底欄移位。NPQ 第 9 題以黃色螢光筆標出不駕駛時請留空的提示。",
+    "apkUrl": "https://github.com/alvin19921008-arch/opd-questionnaire-releases/releases/download/stable-v1.24-code35/questionnaire-1.24.apk",
+    "byteSize": 6137416,
+    "sha256": "2b622eaede8ff6a93ba8c78a42be0e44ef469cbc5871998582f48ca9c60dbc37",
     "signerCertificateSha256": "5fa46636a2fa544bc0ea7f4ae0b9319c72b525cefcb62ef2ee851cd67beb146c",
     "minimumAndroidApi": 24
   }
